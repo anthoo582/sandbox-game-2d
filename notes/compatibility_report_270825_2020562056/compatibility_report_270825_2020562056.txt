@@ -1,0 +1,27 @@
+Converting GML script: C:\Users\Pixel\Desktop\Minecraft 2D Engine.gmx\mvc\scripts\render\render.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: C:\Users\Pixel\Desktop\Minecraft 2D Engine.gmx\mvc\objects\object_water\Alarm_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Water Physics
+
+Converting GML script: C:\Users\Pixel\Desktop\Minecraft 2D Engine.gmx\mvc\objects\object_player\Step_0.gml
+Converted builtin - line 44: view_xview[0] = x - (view_wview[0] / 2) -> __view_set( e__VW.XView, 0, x - (view_wview[0] / 2) )
+Converted builtin - line 45: view_yview[0] = y - (view_hview[0] / 2) -> __view_set( e__VW.YView, 0, y - (view_hview[0] / 2) )
+Converted builtin - line 44: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 45: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Game speed set to 30
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
